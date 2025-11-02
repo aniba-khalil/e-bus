@@ -63,15 +63,8 @@ export default function Consulter() {
           </table>
         </div>
 
-        {/* Bouton retour */}
-        <div className="flex justify-center mt-8">
-          <button
-            onClick={() => navigate("/")}
-            className="px-6 py-3 btn-primary rounded-lg text-white font-semibold transition-all duration-300 hover:scale-105"
-          >
-            ⬅ Retour à la connexion
-          </button>
-        </div>
+        
+        
       </div>
     </div>
   );
